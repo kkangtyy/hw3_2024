@@ -132,9 +132,6 @@ nav ul li a:hover{
 
 
 /* Step 4: Write selector/rule property to style the container */
-/* h2{
-  text-align: center;
-} */
 .container{
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
@@ -145,7 +142,7 @@ nav ul li a:hover{
 first div in the grid  and place it in the grid. */
 .container > :first-child{
   background-image: url("../images/header.jpg");
-  grid-column: 1 / span 3;
+  grid-column: 1 / -1;
 }
 
 /* Steps 6 and 7: Write the selector/rule properties to add place the next elements in the next
